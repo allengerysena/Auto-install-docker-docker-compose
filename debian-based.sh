@@ -34,9 +34,3 @@ sudo curl -L "https://github.com/docker/compose/releases/download/$(curl -s http
 
 # Apply executable permissions to the Docker Compose binary
 sudo chmod +x /usr/local/bin/docker-compose
-
-# Verify installation
-docker --version
-docker-compose --version
-
-echo "Docker and Docker Compose have been successfully installed!"
