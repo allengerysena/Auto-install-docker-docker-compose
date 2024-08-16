@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# For Debian / Ubuntu / Linux Mint
+
 # Update package manager and install dependencies
 sudo apt-get update
 sudo apt-get install -y \
