@@ -1,3 +1,5 @@
+# For CentOS / RHEL / Fedora
+
 # Update package manager and install dependencies
 sudo yum update -y
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
